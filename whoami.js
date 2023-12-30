@@ -4,7 +4,6 @@ var CommandRegistry = Java.type("oracle.dbtools.raptor.newscriptrunner.CommandRe
 // CommandListener for creating any new command
 var CommandListener =  Java.type("oracle.dbtools.raptor.newscriptrunner.CommandListener")
 
-// Broke the .js out from the Java.extend to be easier to read
 var cmd = {};
 
 var binds = {};
